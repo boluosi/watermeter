@@ -65,7 +65,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\iview.css" />
+    <Content Include="main.html" />
     <Content Include="packages.config" />
+    <Content Include="scripts\gauge.min.js.map" />
+    <Content Include="scripts\jquery-3.1.1.min.map" />
+    <Content Include="scripts\jquery-3.1.1.slim.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,6 +79,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="scripts\echarts.min.js" />
+    <Content Include="scripts\gauge.min.js" />
+    <Content Include="scripts\iview.js" />
+    <Content Include="scripts\iview.min.js" />
+    <None Include="scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="scripts\jquery-3.1.1.js" />
+    <Content Include="scripts\jquery-3.1.1.min.js" />
+    <Content Include="scripts\jquery-3.1.1.slim.js" />
+    <Content Include="scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="scripts\moment-with-locales.min.js" />
+    <Content Include="scripts\vue-axios.es5.js" />
+    <Content Include="scripts\vue-axios.min.js" />
+    <Content Include="scripts\vue.common.js" />
+    <Content Include="scripts\vue.esm.js" />
+    <Content Include="scripts\vue.js" />
+    <Content Include="scripts\vue.min.js" />
+    <Content Include="scripts\vue.runtime.common.js" />
+    <Content Include="scripts\vue.runtime.esm.js" />
+    <Content Include="scripts\vue.runtime.js" />
+    <Content Include="scripts\vue.runtime.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
